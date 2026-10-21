@@ -1,6 +1,6 @@
-01 | Introduction: From Raw Sequencing Reads to a Gene Expression Count Matrix
+# 01 | Introduction: From Raw Sequencing Reads to a Gene Expression Count Matrix
 
-Overview
+## Overview
 
 Welcome to the hands-on section of the Single-Cell RNA-seq Analysis Workshop!
 
