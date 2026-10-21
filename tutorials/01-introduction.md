@@ -11,3 +11,46 @@ In this tutorial, we will learn how raw sequencing data are processed to generat
 We will use Cell Ranger, a software package developed by 10x Genomics, to process sequencing data from a publicly available human peripheral blood mononuclear cell (PBMC) dataset.
 
 No prior experience with Linux or command-line tools is required.
+
+## Workflow
+### Part I — Primary data processing
+
+#### Raw sequencing data → Gene expression count matrix
+
+This part includes:
+
+1. Reading the sequencing data (FASTQ files).
+
+2. Processing cell barcodes and UMIs.
+
+3. Aligning sequencing reads to a reference transcriptome.
+
+4. Assigning reads to genes and counting unique molecules.
+
+5. Identifying cell-associated barcodes.
+
+6. Generating a gene expression count matrix.
+
+We will perform these steps using Cell Ranger.
+
+### Part II — Downstream analysis
+
+#### Gene expression count matrix → Biological interpretation
+
+This part typically includes:
+
+1. Quality control and filtering.
+
+2. Normalization.
+
+3. Identification of highly variable genes.
+
+4. Dimensionality reduction (PCA and UMAP).
+
+5. Cell clustering.
+
+6. Cell-type annotation.
+
+7. Differential gene expression and biological interpretation.
+
+We will explore these steps using Python and Scanpy in Google Colab.
