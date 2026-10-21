@@ -40,6 +40,7 @@ cellranger --version
 This should display the installed Cell Ranger version.
 
 ## Workshop directory structure
+```
 /data/
 ├── shared/
 │   ├── fastq/
@@ -51,6 +52,7 @@ This should display the installed Cell Ranger version.
     ├── annemarie/
     ├── bing/
     └── ... other students
+```
 
  ### Input files
  https://www.10xgenomics.com/datasets/5k_Human_Donor1_PBMC_3p_gem-x 
