@@ -47,7 +47,11 @@ ED25519 key fingerprint is SHA256:...
 Are you sure you want to continue connecting (yes/no/[fingerprint])?
 ```
 
-type: yes
+type: 
+```
+yes
+```
+
 **Note:** 
 Some institutional, university, or public Wi-Fi networks restrict outgoing connections to external servers, including SSH connections (typically using port 22).
 If you are connected to such a network, you may receive an error such as:
