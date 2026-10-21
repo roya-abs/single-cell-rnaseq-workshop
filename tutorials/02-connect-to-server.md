@@ -21,15 +21,13 @@ Cell Ranger is already installed and the required input files are prepared.
 During this workshop, approximately 10 participants will use the same server simultaneously.
 To ensure that everyone can complete the exercise successfully:
 
-1. Connect to the server only during your assigned group session.
+1. Connect to the server and run Cell Ranger only during your assigned group session.
 
 2. Use only your own Linux account.
 
-3. Run Cell Ranger only when instructed.
+3. Do not modify or delete files in the shared data directories.
 
-4. Do not modify or delete files in the shared data directories.
-
-5. Do not run the same Cell Ranger command multiple times.
+4. Do not run the same Cell Ranger command multiple times.
 
 ### 1. Open a terminal
 
