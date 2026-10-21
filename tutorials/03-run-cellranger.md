@@ -1,3 +1,4 @@
+# Linux and Running Cell Ranger
 Cell Ranger performs several essential steps, including processing cell barcodes and unique molecular identifiers (UMIs), aligning sequencing reads to a reference transcriptome, assigning reads to genes, and counting unique RNA-derived molecules.
 
 By the end of this tutorial, you will have executed a complete Cell Ranger count pipeline and generated the files required for downstream analysis.
