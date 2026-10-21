@@ -40,6 +40,22 @@ example:
 ```
 ssh roya@203.0.113.42
 ```
+When connecting to a server for the first time, you may see a message similar to:
+```
+The authenticity of host 'SERVER_IP' can't be established.
+ED25519 key fingerprint is SHA256:...
+Are you sure you want to continue connecting (yes/no/[fingerprint])?
+```
+
+type: yes
+**Note:** 
+Some institutional, university, or public Wi-Fi networks restrict outgoing connections to external servers, including SSH connections (typically using port 22).
+If you are connected to such a network, you may receive an error such as:
+```
+ssh: connect to host 203.0.113.42 port 22: Connection timed out
+```
+In this case, try connecting through a different network, such as your mobile hotspot.
+
 
 
 
