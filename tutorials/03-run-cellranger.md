@@ -143,6 +143,11 @@ Maximum resident set size (kbytes): ...
    ```bash
    scp YOUR_USERNAME@SERVER_IP:/data/work/YOUR_USERNAME/PBMC5k_YOUR_USERNAME/outs/filtered_feature_bc_matrix.h5 .
    ```
+   For example:
+   ```text
+   > scp roya@203.0.113.42:/data/work/roya/PBMC5k_roya/outs/filtered_feature_bc_matrix.h5 .
+   ```
+
    
    
 
