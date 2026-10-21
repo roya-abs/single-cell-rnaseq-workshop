@@ -9,13 +9,27 @@ Each participant will receive:
 - A **password** for connecting to the server.
 - A **personal working directory** for storing results.
 
-Each participant has an individual Linux account on the server.
+Each participant has an individual Linux account and a personal home directory on the server.
 
 **Important**: Your username and password are personal. Do not share them with other participants or upload them to GitHub.
 
 All participants will process the same input dataset independently.
 
 Cell Ranger is already installed and the required input files are prepared.
+
+## Important guidlines for using the shared server
+During this workshop, approximately 10 participants will use the same server simultaneously.
+To ensure that everyone can complete the exercise successfully:
+
+1. Connect to the server only during your assigned group session.
+
+2. Use only your own Linux account.
+
+3. Run Cell Ranger only when instructed.
+
+4. Do not modify or delete files in the shared data directories.
+
+5. Do not run the same Cell Ranger command multiple times.
 
 ### 1. Open a terminal
 
@@ -51,6 +65,16 @@ type:
 ```
 yes
 ```
+You will then be asked for your password. Enter the provided password and press Enter.
+**Important:** When typing your password, no characters, dots, or asterisks will appear on the screen. This is normal and is a security feature of the terminal.
+If the password is correct, you will be logged in to the server.
+
+After successfully connecting, you should see a command prompt similar to:
+```
+roya@203.0.113.42:$
+```
+The exact appearance may differ.
+
 
 **Note:** 
 Some institutional, university, or public Wi-Fi networks restrict outgoing connections to external servers, including SSH connections (typically using port 22).
