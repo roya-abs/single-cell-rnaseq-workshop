@@ -105,6 +105,46 @@ User time (seconds): ...
 System time (seconds): ...
 Maximum resident set size (kbytes): ...
 ```
+4. Check if the output is generated
+   ```bash
+   ls -lh
+   ```
+   You should see a directory similar to:
+   ```text
+   PBMC5k_roya/
+   ```
+   Enter the output directory:
+   ```bash
+   cd PBMC5k_$(whoami)
+   ```
+   And, list the contents:
+   ```bash
+   ls
+   ```
+   The main results are stored in the outs/ directory. Inspect it:
+   ```bash
+   ls -lh outs/
+   ```
+   Look for the following files:
+   ```text
+   > filtered_feature_bc_matrix/
+   filtered_feature_bc_matrix.h5
+   raw_feature_bc_matrix/
+   raw_feature_bc_matrix.h5
+   molecule_info.h5
+   ```
+   For our downstream analysis, we will primarily use:
+   ```text
+   > filtered_feature_bc_matrix.h5
+   ```
+5. Download the Cell Ranger output to your computer
+   a. Open a new terminal on your computer, keep your existing SSH session open.
+   b. In your local terminal, enter:
+   ```bash
+   scp YOUR_USERNAME@SERVER_IP:/data/work/YOUR_USERNAME/PBMC5k_YOUR_USERNAME/outs/filtered_feature_bc_matrix.h5 .
+   ```
+   
+   
 
    
 
