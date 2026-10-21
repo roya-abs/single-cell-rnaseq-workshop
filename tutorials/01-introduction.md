@@ -7,7 +7,7 @@ Welcome to the hands-on section of the Single-Cell RNA-seq Analysis Workshop!
 Single-cell RNA sequencing (scRNA-seq) allows us to study gene expression at the level of individual cells. Unlike bulk RNA-seq, which measures the average gene expression across a population of cells, scRNA-seq enables us to investigate cellular heterogeneity, identify distinct cell populations, and explore cell states and biological processes.
 
 ## Workflow
-### Part I — Primary data processing
+### Part I (Day 1) — Primary data processing
 
 #### Raw sequencing data → Gene expression count matrix
 
@@ -27,7 +27,7 @@ This part includes:
 
 We will perform these steps using Cell Ranger, a software package developed by 10x Genomics.
 
-### Part II — Downstream analysis
+### Part II (Day2) — Downstream analysis
 
 #### Gene expression count matrix → Biological interpretation
 
