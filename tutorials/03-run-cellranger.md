@@ -96,7 +96,7 @@ https://cf.10xgenomics.com/supp/cell-exp/refdata-gex-GRCh38-2024-A.tar.gz
 
 For example, you may see:
 ```text
-Pipestance completed successfully!
+> Pipestance completed successfully!
 ```
 you may also see entries such as:
 ```text
