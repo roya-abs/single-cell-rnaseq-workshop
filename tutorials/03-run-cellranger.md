@@ -58,6 +58,12 @@ This should display the installed Cell Ranger version.
  https://www.10xgenomics.com/datasets/5k_Human_Donor1_PBMC_3p_gem-x 
  FASTQ files from the 10x Genomics 5k Human PBMC Donor 1 dataset (sequencing lane 1, L001).
 
+* R1 — Read 1, containing cell barcode and UMI information.
+
+* R2 — Read 2, containing the transcript-derived sequence.
+
+* I1 and I2 — Index reads, depending on the sequencing configuration.
+
 
 ## Running Cell Ranger
 
