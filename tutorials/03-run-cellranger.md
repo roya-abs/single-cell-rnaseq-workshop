@@ -11,7 +11,7 @@ whoami
 ```
 Expected output (for example):
 ```text
-roya
+> roya
 ```
 Check your current directory:
 ```bash
@@ -19,7 +19,7 @@ pwd
 ```
 Expected output (for example):
 ```text
-/home/roya
+> /home/roya
 ```
 List files and directories:
 ```bash
@@ -100,7 +100,7 @@ For example, you may see:
 ```
 you may also see entries such as:
 ```text
-Elapsed (wall clock) time (h:mm:ss or m:ss): 33:02.41
+> Elapsed (wall clock) time (h:mm:ss or m:ss): 33:02.41
 User time (seconds): ...
 System time (seconds): ...
 Maximum resident set size (kbytes): ...
