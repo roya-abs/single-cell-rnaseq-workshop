@@ -112,7 +112,7 @@ Maximum resident set size (kbytes): ...
    ```
    You should see a directory similar to:
    ```text
-   PBMC5k_roya/
+   > PBMC5k_roya/
    ```
    Enter the output directory:
    ```bash
