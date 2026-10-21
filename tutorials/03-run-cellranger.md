@@ -6,41 +6,41 @@ Before jumping to run the cellranger, try some basic commands and change your wo
 
 ## Some basic commands
 You can check your username by typing:
-```
+```bash
 whoami
 ```
 Expected output (for example):
-```
+```text
 roya
 ```
 Check your current directory:
-```
+```bash
 pwd
 ```
 Expected output (for example):
-```
+```text
 /home/roya
 ```
 List files and directories:
-```
+```bash
 ls
 ```
 A more detailed list:
-```
+```bash
 ls -l
 ```
 File sizes in a more readable format:
-```
+```bash
 ls -lh
 ```
 Check if cellranger is available:
-```
+```bash
 cellranger --version
 ```
 This should display the installed Cell Ranger version.
 
 ## Workshop directory structure
-```
+```text
 /data/
 ├── shared/
 │   ├── fastq/
@@ -73,12 +73,12 @@ https://cf.10xgenomics.com/supp/cell-exp/refdata-gex-GRCh38-2024-A.tar.gz
 ## Running Cell Ranger
 
 1. Navigate to your own working directory:
-   ```
+   ```bash
    cd /data/work/$(whoami)
    ```
 
 2. Copy and paste the following command into your terminal:
-   ```
+   ```bash
    /usr/bin/time -v cellranger count \
     --id=PBMC5k_$(whoami) \
     --transcriptome=/data/shared/reference/refdata-gex-GRCh38-2024-A \
@@ -95,11 +95,11 @@ https://cf.10xgenomics.com/supp/cell-exp/refdata-gex-GRCh38-2024-A.tar.gz
 3. When Cell Ranger completes successfully, it prints a completion message and reports the location of the output files.
 
 For example, you may see:
-```
+```text
 Pipestance completed successfully!
 ```
 you may also see entries such as:
-```
+```text
 Elapsed (wall clock) time (h:mm:ss or m:ss): 33:02.41
 User time (seconds): ...
 System time (seconds): ...
