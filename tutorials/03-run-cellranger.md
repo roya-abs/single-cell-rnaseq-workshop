@@ -68,7 +68,7 @@ This should display the installed Cell Ranger version.
 
 #### Reference transcriptome
 We will use the GRCh38 reference provided by 10x Genomics:
-https://cf.10xgenomics.com/supp/cell-exp/refdata-gex-GRCh38-2024-A.tar.gz
+https://www.10xgenomics.com/support/software/cell-ranger/9.0/release-notes/cr-reference-release-notes
 
 
 ## Running Cell Ranger
