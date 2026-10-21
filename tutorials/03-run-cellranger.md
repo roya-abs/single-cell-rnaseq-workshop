@@ -150,20 +150,12 @@ Maximum resident set size (kbytes): ...
    Now, you can use your computer's file explorer to find the downloaded outs folder in your Downloads.
    Among the output files, filtered_feature_bc_matrix.h5 contains the gene expression count matrix for the cells identified by Cell Ranger. 
 
-   
-   
-
-   
-
-
- Disconnect from the server
-
-When you finish working, you can disconnect from the server.
-
-Type:
-
-exit
-
+6. Disconnect from the server
+   When you finish working, you can disconnect from the server.
+   Type:
+   ```bash
+   exit
+   ```
 Alternatively, press Ctrl + D.
 
 Your SSH connection will close, and you will return to the terminal on your personal computer.
