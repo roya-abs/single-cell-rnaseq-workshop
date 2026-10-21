@@ -55,6 +55,7 @@ This should display the installed Cell Ranger version.
 ```
 
  ### Input files
+ #### FASTQ files
  https://www.10xgenomics.com/datasets/5k_Human_Donor1_PBMC_3p_gem-x 
  FASTQ files from the 10x Genomics 5k Human PBMC Donor 1 dataset (sequencing lane 1, L001).
 
@@ -64,6 +65,10 @@ This should display the installed Cell Ranger version.
 
 * I1 and I2 — Index reads, depending on the sequencing configuration.
 
+#### Reference transcriptome
+We will use the GRCh38 reference provided by 10x Genomics:
+https://cf.10xgenomics.com/supp/cell-exp/refdata-gex-GRCh38-2024-A.tar.gz
+
 
 ## Running Cell Ranger
 
@@ -71,6 +76,36 @@ This should display the installed Cell Ranger version.
    ```
    cd /data/work/$(whoami)
    ```
+
+2. Copy and paste the following command into your terminal:
+   ```
+   /usr/bin/time -v cellranger count \
+    --id=PBMC5k_$(whoami) \
+    --transcriptome=/data/shared/reference/refdata-gex-GRCh38-2024-A \
+    --fastqs=/data/shared/fastq \
+    --sample=5k_Human_Donor1_PBMC_3p_gem-x_GEX \
+    --lanes=1 \
+    --localcores=4 \
+    --localmem=16 \
+    --create-bam=false \
+    --nosecondary
+   ```
+   Cell Ranger will begin processing the FASTQ files and display information about the different stages of the pipeline.
+
+3. When Cell Ranger completes successfully, it prints a completion message and reports the location of the output files.
+
+For example, you may see:
+```
+Pipestance completed successfully!
+```
+you may also see entries such as:
+```
+Elapsed (wall clock) time (h:mm:ss or m:ss): 33:02.41
+User time (seconds): ...
+System time (seconds): ...
+Maximum resident set size (kbytes): ...
+```
+
    
 
 
