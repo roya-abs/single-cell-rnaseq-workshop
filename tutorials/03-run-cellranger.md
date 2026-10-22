@@ -142,11 +142,11 @@ Maximum resident set size (kbytes): ...
    a. Open a new terminal on your computer, keep your existing SSH session open.
    b. In your local terminal, enter:
    ```bash
-   scp YOUR_USERNAME@SERVER_IP:/data/work/YOUR_USERNAME/PBMC5k_YOUR_USERNAME/outs ~/Downloads/
+   scp -r YOUR_USERNAME@SERVER_IP:/data/work/YOUR_USERNAME/PBMC5k_YOUR_USERNAME/outs ~/Downloads/
    ```
    For example:
    ```text
-   > scp roya@203.0.113.42:/data/work/roya/PBMC5k_roya/outs ~/Downloads/
+   > scp -r roya@203.0.113.42:/data/work/roya/PBMC5k_roya/outs ~/Downloads/
    ```
    Now, you can use your computer's file explorer to find the downloaded outs folder in your Downloads.
    Among the output files, filtered_feature_bc_matrix.h5 contains the gene expression count matrix for the cells identified by Cell Ranger. 
